@@ -1,0 +1,257 @@
+	body {
+		padding: 40px 40px 40px 40px;
+		background-color: #E5E5E5;
+		font-family: 'Montserrat', sans-serif;
+	}
+
+	.wrapper {
+		display: flex;
+		flex-direction: row-reverse;
+		background: #ffffff;
+		width: 1200px;
+		margin: 0 auto;
+	}
+
+	/* Main content */
+	.main-content {
+		padding: 88px;
+		width: 100%; 
+	}
+
+	/* About me */
+	.My-profesion {
+		margin: 0 0 18px 0;
+		font-style: normal;
+		font-weight: 700;
+		font-size: 14px;
+		line-height: 17px;
+		color: #000000;
+	}
+
+	.name {
+		margin: 0 0 28px 0;
+		font-style: normal;
+		font-weight: 700;
+		font-size: 45px;
+		line-height: 55px;
+		color: #000000;
+	}
+
+	.my-description {
+		margin: 0 0 0 0;
+		font-style: normal;
+		font-weight: 400;
+		font-size: 14px;
+		line-height: 24px;
+		color: #595959;
+	}
+
+	.about-me {
+		margin-bottom: 64px;
+	}
+	/* Project */
+	.main-content-title {
+		font-style: normal;
+		font-weight: 700;
+		font-size: 22px;
+		line-height: 27px;
+		color: #000000;
+		margin: 0 0 12px 0;
+	}
+
+	.projects-container {
+		margin-bottom: 48px;
+	}
+
+	.projects-list {
+		padding-left: 20px;
+	}
+
+	.project-item {
+		font-style: normal;
+		font-weight: 700;
+		font-size: 14px;
+		line-height: 24px;
+		color: #000000;
+	}
+
+	.project-link {
+		font-style: normal;
+		font-weight: 400;
+		font-size: 14px;
+		line-height: 24px;
+		text-decoration-line: underline;
+		color: #005FFF;
+		margin-left: 14px;
+	}
+
+	.project-item-descr {
+		font-style: normal;
+		font-weight: 400;
+		font-size: 14px;
+		line-height: 24px;
+		color: #595959;
+	}
+
+	/* Work Experience */
+	.work-container {
+		margin-bottom: 44px;
+	}
+	.work-position{
+		font-style: normal;
+		font-weight: 700;
+		font-size: 16px;
+		line-height: 20px;
+		color: #000000;
+		margin: 0;
+	}
+	.work-position-2{
+		color: #6D9BF5;
+	}
+	.work-place{
+		margin-bottom: 16px;
+	}
+	.work-period{
+		font-style: normal;
+		font-weight: 400;
+		font-size: 12px;
+		line-height: 15px;
+		color: #A8A8A8;
+		margin: 12px 0 8px 0;
+	}
+	.work-duties{
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 24px;
+	color: #595959;
+	}
+	.work-duties-list{
+		padding-left: 16px;
+	}
+	/* Education */
+	.education-place{
+		font-style: normal;
+		font-weight: 700;
+		font-size: 16px;
+		line-height: 20px;
+		color: #6D9BF5;
+		margin: 12px 0 12px 0;
+	}
+	.education-name{
+	font-style: normal;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 17px;
+	color: #000000;
+	margin: 0 0 12px 0;
+	}
+	.education-period{
+		font-style: normal;
+		font-weight: 400;
+		font-size: 12px;
+		line-height: 15px;
+		color: #A8A8A8;
+	}
+	.text-divider{
+		color: #000;
+	}
+	/* Sidebar */
+	.sidebar{
+		width: 370px;
+		background: #E0EBFE;
+	}
+
+	.img {
+		margin-top: 40px;
+	}
+
+	.contacts-box,
+	.tech-skills-box,
+	.soft-skills-box{
+		margin: 48px 0 0 40px;
+	}
+
+	.sidebar-title{
+		font-style: normal;
+		font-weight: 700;
+		font-size: 22px;
+		line-height: 27px;
+		color: #161D2A;
+		margin-bottom: 8px;
+	}
+
+	/* Contact */
+	.contacts-type{
+		font-style: normal;
+		font-weight: 700;
+		font-size: 14px;
+		line-height: 24px;
+		color: #161D2A;
+		margin-right: 5px;
+	}
+
+	.contacts-item{
+		margin: 0px;
+	}
+
+	.contacts-number {
+		font-style: normal;
+		font-weight: 400;
+		font-size: 14px;
+		line-height: 24px;
+		color: #161D2A;
+	}
+
+	.contacts-mail {
+		font-style: normal;
+		font-weight: 400;
+		font-size: 14px;
+		line-height: 24px;
+		color: #2979FF;
+	}
+
+	/* Tech Skills */
+	.tech-list{
+		margin: 0px;
+		padding: 0 0 0 16px;
+	}
+
+	.tech-list-item{
+		color: #6D9BF5;
+	}
+
+	.tech-list-text{
+		font-style: normal;
+		font-weight: 400;
+		font-size: 14px;
+		line-height: 24px;
+		color: #161D2A;
+	}
+
+	/* Soft Skills */
+	.soft-list{
+		margin: 0px;
+		padding: 0 0 0 16px;
+	}
+
+	.soft-list-item{
+		color: #6D9BF5;
+	}
+
+	.soft-list-text{
+		font-style: normal;
+		font-weight: 400;
+		font-size: 14px;
+		line-height: 24px;
+		color: #161D2A;
+	}
+	.soft-list_test{
+		font-size: 30px;
+		line-height: 150%;
+		font-weight: 700;
+		color: #0000;
+		margin: 20px 30px;
+		padding: 10px 10px;
+		
+	}
